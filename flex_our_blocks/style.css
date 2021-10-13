@@ -23,7 +23,8 @@
     height: 180px;
     width: 190px;
     background-color: yellow;
-    margin-right: 9px;
+    align-items: flex-start;
+    margin-right: 7px;
 }
 #advertisement {
     height: 115px;
