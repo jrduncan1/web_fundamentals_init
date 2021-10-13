@@ -1,0 +1,32 @@
+#background{
+    background-color: white;
+    height: 260px;
+}
+
+.stripes{
+    background-color: red;
+    height: 20px;
+    width: 550px;
+    margin-bottom: 20px;
+}
+
+.blue{
+    background-color: blue;
+    height: 140px;
+    width: 200px; 
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+}
+
+.star-row{
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 5px;
+    padding: 1px;
+}
+
+.star{
+    height: 10px;
+}

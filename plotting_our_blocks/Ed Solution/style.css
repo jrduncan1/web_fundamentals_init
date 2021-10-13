@@ -1,0 +1,40 @@
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 15px; /* adds border on the outside */
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+    margin-bottom: 15px; /* spaces green from blue */
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block; /* positions blue and red next to each other instead of on top of each other */
+    vertical-align: top; /* aligns blue to the top of red */
+    margin-right: 15px; /* spaces blue and red, and makes red flush with green */
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    display: inline-block; /* positions blue and red next to each other instead of on top of each other */
+    padding: 15px; /* adds border for elements within read */
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block; /* positions the yellow boxes next to each other instead of on top of each other */
+    margin-right: 10px; /* spaces the yellow boxes away from each other */
+    margin-bottom: 25px; /* spaces yellow from purple */
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+}
+
