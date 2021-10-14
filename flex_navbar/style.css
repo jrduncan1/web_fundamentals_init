@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    background-color: darkslategray;
+    font-family: 'Quicksand', sans-serif;
+    align-content: flex-end;
+    width: 1004px;
+}
+
+.nav-title{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 10px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+}
+
+li{
+    padding: 12px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.active{
+    color: white;
+}
+
+.btn{
+    box-shadow: 3px 3px black;
+    background-color: lightskyblue;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px;
+}
