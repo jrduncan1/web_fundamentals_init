@@ -16,34 +16,27 @@ img{
     height: 200px;
 }
 
-.first{
-    height: 250px;
-    width: 753px;
-    background-color: rgb(14, 211, 14);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-
-.second{
-    height: 250px;
-    width: 753px;
-    background-color: rgb(170, 176, 224);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-}
-
+.first,
+.second,
 .third{
     height: 250px;
     width: 753px;
-    background-color: rgb(243, 7, 105);
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 20px;
+}
+
+.first{
+    background-color: rgb(14, 211, 14);
+}
+
+.second{
+    background-color: rgb(170, 176, 224);
+}
+
+.third{
+    background-color: rgb(243, 7, 105);
 }
 
 p{
