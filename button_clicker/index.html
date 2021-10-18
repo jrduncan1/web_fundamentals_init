@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="topHeader">
+            <div class="title">
+                <h1>Dojonary</h1>
+            </div>
+            <div class="searchBar">
+                <input type="text" value="Search">
+            </div>
+            <div class="login">
+                <button class="loginButton" onclick="logOut(this)">Login</button>
+            </div>
+        </div>
+        <div class="body">
+            <div class="leftColumn">
+                <div class="ninja-singular">
+                    <div class="ninja-classic">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p>Plural: ninjas</p>
+                        <button class="likes" onclick="showAlert()">13 likes</button>
+                    </div>
+                    <div class="definition">
+                        <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="ninja-dojo">
+                    <div class="ninja-classic">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p>Plural: ninjas</p>
+                        <button class="likes" onclick="showAlert()">37 likes</button>
+                    </div>
+                    <div class="definition">
+                        <p>A <a href="">programmer</a> who breaks down problems with zen-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightColumn">
+                <div class="addDefinition">
+                    <h1>Dojonary is defined by YOU</h1>
+                    <button class="defineButton" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

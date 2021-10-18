@@ -1,0 +1,84 @@
+*{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.topHeader,
+.searchBar,
+.login,
+.ninja-singular,
+.ninja-dojo,
+.rightColumn,
+.body{
+    display: flex;
+}
+
+#container{
+    width: 650px;
+    height: 500px;
+    /* background-color: ivory; */
+}
+
+.topHeader{
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 0px 20px;
+}
+
+.leftColumn{
+    height: 90%;
+    width: 60%;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    /* background-color: gray; */
+    padding: 0px 20px;
+}
+
+.ninja-singular,
+.ninja-dojo{
+    height: 40%;
+    /* background-color: green; */
+    align-items: center;
+    padding: 10px;
+    border: solid black;
+    margin-top: 10px;
+}
+
+.definition{
+    justify-content: center;
+    margin-left: 20px;
+    width: 60%;
+}
+
+.ninja-classic > h1,
+.ninja-classic > h3,
+.ninja-classic > p{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.rightColumn{
+    height: 30%;
+    align-items: center;
+    padding: 10px;
+    border: solid black;
+    margin-top: 10px;
+}
+
+.addDefinition > button{
+    justify-content: center;
+}
+
+.likes,
+.defineButton{
+    background-color: lime;
+    box-shadow: 3px 3px black;
+}
+
+.loginButton{
+    background-color: #2b78e4;
+    box-shadow: 3px 3px black;
+    color: white;
+}
