@@ -15,7 +15,6 @@
 #container{
     width: 650px;
     height: 500px;
-    /* background-color: ivory; */
 }
 
 .topHeader{
@@ -30,16 +29,13 @@
 .leftColumn{
     height: 90%;
     width: 60%;
-    /* align-items: flex-start; */
     justify-content: space-between;
-    /* background-color: gray; */
     padding: 0px 20px;
 }
 
 .ninja-singular,
 .ninja-dojo{
     height: 40%;
-    /* background-color: green; */
     align-items: center;
     padding: 10px;
     border: solid black;
