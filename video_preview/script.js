@@ -1,11 +1,12 @@
 console.log("page loaded...");
 
-function over(element){
-    var c = document.getElementById("myVideo");
-    c.controls = true;
+function over(video){
+    video.controls = true;
+    video.play();
 }
 
-function out(element){
-    var c = document.getElementById("myVideo");
-    c.controls = false;
+function out(video){
+    video.controls = false;
+    video.pause();
 }
+
